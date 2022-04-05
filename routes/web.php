@@ -21,13 +21,3 @@ Route::get('/dosen', function () {
     return view('dosen');
 });
 
-Route::get('/mahasiswa', function () {
-    return view('mahasiswa');
-});
-
-Route::get('/admin', function () {
-    return view('admin');
-});
-Route::get('/admin1', function () {
-    return view('admin');
-});
