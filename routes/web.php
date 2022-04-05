@@ -23,8 +23,11 @@ Route::get('/dosen', function () {
 
 Route::get('/mahasiswa', function () {
     return view('mahasiswa');
-}); 
+});
 
 Route::get('/admin', function () {
     return view('admin');
-}); 
+});
+Route::get('/admin1', function () {
+    return view('admin');
+});
