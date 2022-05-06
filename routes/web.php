@@ -20,5 +20,3 @@ Route::get('/', function () {
 Route::get('/dosen', function () {
     return view('dosen');
 });
-
-tes
