@@ -21,3 +21,4 @@ Route::get('/dosen', function () {
     return view('dosen');
 });
 
+tes
