@@ -14,7 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('dashboard');
+    return view('index');
+});
+Route::get('/jadwal', function () {
+    return view('index_jadwal');
+});
+Route::get('/users', function () {
+    return view('users');
 });
 
 Route::get('/dosen', function () {

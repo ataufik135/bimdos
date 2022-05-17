@@ -72,7 +72,7 @@
       </li> --}}
     </ul>
   </div>
-  {{-- <div class="sidenav-footer mx-3 ">
+  <div class="sidenav-footer mx-3 ">
     <div class="card card-plain shadow-none" id="sidenavCard">
       <img class="w-50 mx-auto"
         src="{{ url('assets/vendor/argon/assets/img/illustrations/icon-documentation.svg') }}"
@@ -88,5 +88,5 @@
       class="btn btn-dark btn-sm w-100 mb-3">Documentation</a>
     <a class="btn btn-primary btn-sm mb-0 w-100"
       href="https://www.creative-tim.com/product/argon-dashboard-pro?ref=sidebarfree" type="button">Upgrade to pro</a>
-  </div> --}}
+  </div>
 </aside>
